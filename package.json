@@ -1,0 +1,48 @@
+{
+  "name": "@sportdigi/bet-race",
+  "version": "1.1.12",
+  "description": "",
+  "main": "dist/es5/app/App.js",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "digilinter": "digilinter",
+    "start": "sportdigi-scripts start",
+    "build": "sportdigi-scripts build",
+    "build:cdn": "sportdigi-scripts build cdn",
+    "transpile": "sportdigi-scripts transpile",
+    "prepack": "npm run transpile"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "resolutions": {
+    "coa": "2.0.2"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.5.1",
+    "@sportdigi/app-starter": "1.6.8",
+    "@sportdigi/banner": "^4.2.1",
+    "@sportdigi/http-api": "^2.18.0",
+    "classnames": "^2.2.6",
+    "dateformat": "^5.0.3",
+    "node-sass": "4.14.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.3",
+    "coa": "2.0.2"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/plugin-proposal-decorators": "^7.15.8",
+    "@babel/plugin-proposal-function-bind": "^7.12.1",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/plugin-transform-classes": "^7.15.4",
+    "@babel/plugin-transform-react-jsx": "^7.12.12",
+    "@babel/plugin-transform-runtime": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-react": "^7.14.5",
+    "@sportdigi/scripts": "1.1.2"
+  }
+}

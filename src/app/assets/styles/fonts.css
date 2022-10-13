@@ -1,0 +1,902 @@
+/* fonts */
+
+@font-face {
+    font-family: 'roboto';
+    src: url('../fonts/Roboto/Roboto-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'roboto';
+}
+
+
+@font-face {
+    font-family: 'digiSportIcons';
+    src: url('../fonts/sportsIcons/sportsIcons.eot?v=1.1.10');
+    src: url('../fonts/sportsIcons/sportsIcons.eot?#iefix&v=1.1.10') format('embedded-opentype'),
+        url('../fonts/sportsIcons/sportsIcons.woff2?v=1.1.10') format('woff2'),
+        url('../fonts/sportsIcons/sportsIcons.woff?v=1.1.10') format('woff'),
+        url('../fonts/sportsIcons/sportsIcons.ttf?v=1.1.10') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    /*font-display: swap;*/
+    /*unicode-range: U+E000-E06A;*/
+}
+
+[class^='sport_front_icon-']:before,
+[class*=' sport_front_icon-']:before {
+    font-family: 'digiSportIcons';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+    font-size: 36px;
+    vertical-align: middle;
+    font-weight: normal;
+    font-style: normal;
+    speak: none;
+    text-decoration: inherit;
+    text-transform: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: '\e051';
+    direction: ltr !important;
+}
+
+/*
+Glyphs list
+*/
+
+.sport_front_icon-1:before {
+    content: '\e0B7';
+}
+
+.sport_front_icon-2:before {
+    content: '\e001';
+}
+
+.sport_front_icon-3:before {
+    content: '\e002';
+}
+
+.sport_front_icon-4:before {
+    content: '\e003';
+}
+
+.sport_front_icon-5:before {
+    content: '\e004';
+}
+
+.sport_front_icon-6:before {
+    content: '\e005';
+}
+
+.sport_front_icon-7:before {
+    content: '\e006';
+}
+
+.sport_front_icon-8:before {
+    content: '\e007';
+}
+
+.sport_front_icon-9:before {
+    content: '\e008';
+}
+
+.sport_front_icon-10:before {
+    content: '\e009';
+}
+
+.sport_front_icon-11:before {
+    content: '\e00a';
+}
+
+.sport_front_icon-12:before {
+    content: '\e00b';
+}
+
+.sport_front_icon-13:before {
+    content: '\e00c';
+}
+
+.sport_front_icon-14:before {
+    content: '\e00d';
+}
+
+.sport_front_icon-15:before {
+    content: '\e00e';
+}
+
+.sport_front_icon-16:before {
+    content: '\e00f';
+}
+
+.sport_front_icon-17:before {
+    content: '\e010';
+}
+
+.sport_front_icon-18:before {
+    content: '\e011';
+}
+
+.sport_front_icon-19:before {
+    content: '\e012';
+}
+
+.sport_front_icon-20:before {
+    content: '\e013';
+}
+
+.sport_front_icon-21:before {
+    content: '\e014';
+}
+
+.sport_front_icon-22:before {
+    content: '\e015';
+}
+
+.sport_front_icon-23:before {
+    content: '\e016';
+}
+
+.sport_front_icon-24:before {
+    content: '\e017';
+}
+
+.sport_front_icon-25:before {
+    content: '\e018';
+}
+
+.sport_front_icon-26:before {
+    content: '\e019';
+}
+
+.sport_front_icon-27:before {
+    content: '\e01a';
+}
+
+.sport_front_icon-28:before {
+    content: '\e01b';
+}
+
+.sport_front_icon-29:before {
+    content: '\e01c';
+}
+
+.sport_front_icon-30:before {
+    content: '\e01d';
+}
+
+.sport_front_icon-31:before {
+    content: '\e01e';
+}
+
+.sport_front_icon-32:before {
+    content: '\e01f';
+}
+
+.sport_front_icon-33:before {
+    content: '\e020';
+}
+
+.sport_front_icon-34:before {
+    content: '\e021';
+}
+
+.sport_front_icon-35:before {
+    content: '\e022';
+}
+
+.sport_front_icon-36:before {
+    content: '\e023';
+}
+
+.sport_front_icon-37:before {
+    content: '\e024';
+}
+
+.sport_front_icon-38:before {
+    content: '\e025';
+}
+
+.sport_front_icon-39:before {
+    content: '\e026';
+}
+
+.sport_front_icon-40:before {
+    content: '\e027';
+}
+
+.sport_front_icon-41:before {
+    content: '\e028';
+}
+
+.sport_front_icon-42:before {
+    content: '\e029';
+}
+
+.sport_front_icon-43:before {
+    content: '\e02a';
+}
+
+.sport_front_icon-44:before {
+    content: '\e02b';
+}
+
+.sport_front_icon-45:before {
+    content: '\e02c';
+}
+
+.sport_front_icon-46:before {
+    content: '\e02d';
+}
+
+.sport_front_icon-47:before {
+    content: '\e02e';
+}
+
+.sport_front_icon-48:before {
+    content: '\e02f';
+}
+
+.sport_front_icon-49:before {
+    content: '\e030';
+}
+
+.sport_front_icon-50:before {
+    content: '\e031';
+}
+
+.sport_front_icon-51:before {
+    content: '\e032';
+}
+
+.sport_front_icon-52:before {
+    content: '\e033';
+}
+
+.sport_front_icon-53:before {
+    content: '\e034';
+}
+
+.sport_front_icon-54:before {
+    content: '\e035';
+}
+
+.sport_front_icon-55:before {
+    content: '\e036';
+}
+
+.sport_front_icon-56:before {
+    content: '\e037';
+}
+
+.sport_front_icon-57:before {
+    content: '\e038';
+}
+
+.sport_front_icon-58:before {
+    content: '\e039';
+}
+
+.sport_front_icon-59:before {
+    content: '\e03a';
+}
+
+.sport_front_icon-60:before {
+    content: '\e03b';
+}
+
+.sport_front_icon-61:before {
+    content: '\e03c';
+}
+
+.sport_front_icon-62:before {
+    content: '\e03d';
+}
+
+.sport_front_icon-63:before {
+    content: '\e03e';
+}
+
+.sport_front_icon-64:before {
+    content: '\e03f';
+}
+
+.sport_front_icon-65:before {
+    content: '\e040';
+}
+
+.sport_front_icon-66:before {
+    content: '\e041';
+}
+
+.sport_front_icon-67:before {
+    content: '\e042';
+}
+
+.sport_front_icon-68:before {
+    content: '\e043';
+}
+
+.sport_front_icon-69:before {
+    content: '\e044';
+}
+
+.sport_front_icon-70:before {
+    content: '\e045';
+}
+
+.sport_front_icon-71:before {
+    content: '\e046';
+}
+
+.sport_front_icon-72:before {
+    content: '\e047';
+}
+
+.sport_front_icon-73:before {
+    content: '\e048';
+}
+
+.sport_front_icon-74:before {
+    content: '\e049';
+}
+
+.sport_front_icon-75:before {
+    content: '\e04a';
+}
+
+.sport_front_icon-76:before {
+    content: '\e04b';
+}
+
+.sport_front_icon-77:before {
+    content: '\e04c';
+}
+
+.sport_front_icon-78:before {
+    content: '\e04d';
+}
+
+.sport_front_icon-79:before {
+    content: '\e04e';
+}
+
+.sport_front_icon-80:before {
+    content: '\e04f';
+}
+
+.sport_front_icon-81:before {
+    content: '\e050';
+}
+
+.sport_front_icon-82:before {
+    content: '\e051';
+}
+
+.sport_front_icon-83:before {
+    content: '\e052';
+}
+
+.sport_front_icon-84:before {
+    content: '\e053';
+}
+
+.sport_front_icon-85:before {
+    content: '\e054';
+}
+
+.sport_front_icon-86:before {
+    content: '\e055';
+}
+
+.sport_front_icon-87:before {
+    content: '\e056';
+}
+
+.sport_front_icon-88:before {
+    content: '\e057';
+}
+
+.sport_front_icon-89:before {
+    content: '\e058';
+}
+
+.sport_front_icon-90:before {
+    content: '\e059';
+}
+
+.sport_front_icon-91:before {
+    content: '\e05a';
+}
+
+.sport_front_icon-92:before {
+    content: '\e05b';
+}
+
+.sport_front_icon-93:before {
+    content: '\e05c';
+}
+
+.sport_front_icon-94:before {
+    content: '\e05d';
+}
+
+.sport_front_icon-95:before {
+    content: '\e05e';
+}
+
+.sport_front_icon-96:before {
+    content: '\e05f';
+}
+
+.sport_front_icon-97:before {
+    content: '\e060';
+}
+
+.sport_front_icon-98:before {
+    content: '\e061';
+}
+
+.sport_front_icon-99:before {
+    content: '\e062';
+}
+
+.sport_front_icon-100:before {
+    content: '\e063';
+}
+
+.sport_front_icon-101:before {
+    content: '\e064';
+}
+
+.sport_front_icon-102:before {
+    content: '\e065';
+}
+
+.sport_front_icon-103:before {
+    content: '\e066';
+}
+
+.sport_front_icon-104:before {
+    content: '\e067';
+}
+
+.sport_front_icon-105:before {
+    content: '\e068';
+}
+
+.sport_front_icon-106:before {
+    content: '\e069';
+}
+
+.sport_front_icon-107:before {
+    content: '\e06a';
+}
+
+
+.sport_front_icon-108:before {
+    content: '\e06b';
+}
+
+.sport_front_icon-109:before {
+    content: '\e06c';
+}
+
+.sport_front_icon-110:before {
+    content: '\e06d';
+}
+
+.sport_front_icon-111:before {
+    content: '\e06e';
+}
+
+.sport_front_icon-112:before {
+    content: '\e06f';
+}
+
+.sport_front_icon-113:before {
+    content: '\e070';
+}
+
+.sport_front_icon-114:before {
+    content: '\e071';
+}
+
+.sport_front_icon-115:before {
+    content: '\e072';
+}
+
+/*other glyphs*/
+.sport_front_icon-arrow-down:before {
+    content: '\e0b8';
+}
+
+.sport_front_icon-arrow-up:before {
+    content: '\e0b9';
+}
+
+.sport_front_icon-star-empty:before {
+    content: '\e0ba';
+}
+
+.sport_front_icon-star-filled:before {
+    content: '\e0bb';
+}
+
+.sport_front_icon-check:before {
+    content: '\e0bc';
+}
+
+.sport_front_icon-search:before {
+    content: '\e0bd';
+}
+
+.sport_front_icon-wallet:before {
+    content: '\e0be';
+}
+
+.sport_front_icon-tournament:before {
+    content: '\e0bf';
+}
+
+.sport_front_icon-sack:before {
+    content: '\e0c0';
+}
+
+.sport_front_icon-bonus:before {
+    content: '\e0c1';
+}
+
+.sport_front_icon-lock:before {
+    content: '\e0c2';
+}
+
+.sport_front_icon-lock-off:before {
+    content: '\e0c3';
+}
+
+.sport_front_icon-limit-top:before {
+    content: '\e0c4';
+}
+
+.sport_front_icon-limit-bottom:before {
+    content: '\e0c5';
+}
+
+.sport_front_icon-balance:before {
+    content: '\e0c6';
+}
+
+.sport_front_icon-balance-negative:before {
+    content: '\e0c7';
+}
+
+.sport_front_icon-copy:before {
+    content: '\e0c8';
+}
+
+.sport_front_icon-dir-right:before {
+    content: '\e0c9';
+}
+
+.sport_front_icon-dir-top:before {
+    content: '\e0cA';
+}
+
+.sport_front_icon-logout:before {
+    content: '\e0cb';
+}
+
+.sport_front_icon-cashier:before {
+    content: '\e0cc';
+}
+
+.sport_front_icon-history:before {
+    content: '\e0cd';
+}
+
+.sport_front_icon-offers:before {
+    content: '\e0ce';
+}
+
+.sport_front_icon-settings:before {
+    content: '\e0cF';
+}
+
+.sport_front_icon-documents:before {
+    content: '\e0d0';
+}
+
+.sport_front_icon-key:before {
+    content: '\e0d1';
+}
+
+.sport_front_icon-upload:before {
+    content: '\e0d2';
+}
+
+.sport_front_icon-calendar-empty:before {
+    content: '\e0d3';
+}
+
+.sport_front_icon-support:before {
+    content: '\e0d4';
+}
+
+.sport_front_icon-promotions:before {
+    content: '\e0d5';
+}
+
+.sport_front_icon-home:before {
+    content: '\e0d6';
+}
+
+.sport_front_icon-sports:before {
+    content: '\e0d7';
+}
+
+.sport_front_icon-live:before {
+    content: '\e0d8';
+}
+
+.sport_front_icon-bet-checker:before {
+    content: '\e0d9';
+}
+
+.sport_front_icon-live-score:before {
+    content: '\e0da';
+}
+
+.sport_front_icon-statistics:before {
+    content: '\e0db';
+}
+
+.sport_front_icon-results:before {
+    content: '\e0dc';
+}
+
+.sport_front_icon-casino:before {
+    content: '\e0dd';
+}
+
+.sport_front_icon-live-casino:before {
+    content: '\e0de';
+}
+
+.sport_front_icon-rocketon:before {
+    content: '\e0df';
+}
+
+.sport_front_icon-keno-express:before {
+    content: '\e0e0';
+}
+
+.sport_front_icon-keno:before {
+    content: '\e0e1';
+}
+
+.sport_front_icon-hilo:before {
+    content: '\e0e2';
+}
+
+.sport_front_icon-sicBo:before {
+    content: '\e0e3';
+}
+
+.sport_front_icon-blackJack:before {
+    content: '\e0e4';
+}
+
+.sport_front_icon-crash:before {
+    content: '\e0e5';
+}
+
+.sport_front_icon-penalty:before {
+    content: '\e0e6';
+}
+
+.sport_front_icon-belote:before {
+    content: '\e0e7';
+}
+
+.sport_front_icon-backgammon:before {
+    content: '\e0e8';
+}
+
+.sport_front_icon-domino:before {
+    content: '\e0e9';
+}
+
+.sport_front_icon-toto21:before {
+    content: '\e0ea';
+}
+
+.sport_front_icon-baron:before {
+    content: '\e0eb';
+}
+
+.sport_front_icon-rock-paper-scissors:before {
+    content: '\e0ec';
+}
+
+.sport_front_icon-tv-games:before {
+    content: '\e0ed';
+}
+
+.sport_front_icon-goal:before {
+    content: '\e0ee';
+}
+
+.sport_front_icon-poker:before {
+    content: '\e0ef';
+}
+
+.sport_front_icon-virtual-sport:before {
+    content: '\e0f0';
+}
+
+.sport_front_icon-issue:before {
+    content: '\e0f1';
+}
+
+.sport_front_icon-info:before {
+    content: '\e0f2';
+}
+
+.sport_front_icon-calendar:before {
+    content: '\e0f3';
+}
+
+.sport_front_icon-esports:before {
+    content: '\e034';
+}
+
+.sport_front_icon-star-empty-modern:before {
+    content: '\e0f4';
+}
+
+.sport_front_icon-star-filled-modern:before {
+    content: '\e0f5';
+}
+
+.sport_front_icon-statistics-modern:before {
+    content: '\e0f6';
+}
+
+.sport_front_icon-light-bulb:before {
+    content: '\e0f7';
+}
+
+.sport_front_icon-live-stream:before {
+    content: '\e0f8';
+}
+
+.sport_front_icon-bet-history:before {
+    content: '\e0f9' !important;
+}
+
+.sport_front_icon-print:before {
+    content: '\e0fa';
+}
+
+.sport_front_icon-boredraw:before {
+    content: '\e0fb';
+}
+
+.sport_front_icon-cash-show:before {
+    content: '\e0fc';
+}
+
+.sport_front_icon-cash-out:before {
+    content: '\e0fd';
+}
+
+.sport_front_icon-plus:before {
+    content: '\e0fe';
+}
+
+.sport_front_icon-minus:before {
+    content: '\e0ff';
+}
+
+.sport_front_icon-checked:before {
+    content: '\e100';
+}
+
+.sport_front_icon-bowl_modern:before {
+    content: '\e101';
+}
+
+.sport_front_icon-filter_modern:before {
+    content: '\e102';
+}
+
+.sport_front_icon-dots:before {
+    content: '\e103';
+}
+
+.sport_front_icon-ask_davo:before {
+    content: '\e104';
+}
+
+.sport_front_icon-wallet_modern:before {
+    content: '\e105';
+}
+
+.sport_front_icon-bonus_modern:before {
+    content: '\e106';
+}
+
+.sport_front_icon-cashout_classic:before {
+    content: '\e107';
+}
+
+.sport_front_icon-repeat_bet:before {
+    content: '\e107';
+}
+
+.sport_front_icon-check_redact:before {
+    content: '\e108';
+}
+
+.sport_front_icon-share:before {
+    content: '\e109';
+}
+
+.sport_front_icon-copy:before {
+    content: '\e10A';
+}
+
+.sport_front_icon-calculator:before {
+    content: '\e10B';
+}
+
+.sport_front_icon-burger:before {
+    content: '\e10C';
+}
+
+.sport_front_icon-grid:before {
+    content: '\e10D';
+}
+
+.sport_front_icon-group_stage:before {
+    content: '\e10E';
+}
+
+.sport_front_icon-standings:before {
+    content: '\e10F';
+}
+
+.sport_front_icon-statistics:before {
+    content: '\e110';
+}
+
+.sport_front_icon-lucky_wheel:before {
+    content: '\e111';
+}
+
+.sport_front_icon-bet_race:before {
+    content: '\e112';
+}
+
+.sport_front_icon-bet_history:before {
+    content: '\e113';
+}
+
+.sport_front_icon-results:before {
+    content: '\e114';
+}
+
+.sport_front_icon-calendar_modern:before {
+    content: '\e114';
+}
+
+.sport_front_icon-calendar_modern_2:before {
+    content: '\e114';
+}

@@ -1,0 +1,460 @@
+.dg_bet_race_root {
+  background: var(--bodyBg);
+  color: var(--bodyTxt);
+  font-family: "roboto";
+}
+
+.dg_bet_race_root *,
+.dg_bet_race_root {
+  --gap_xs: 6px;
+  --gap_s: 8px;
+  --gap_m: 12px;
+  --gap_l: 16px;
+  --radius_xs: 6px;
+  --radius_s: 8px;
+  --radius_m: 16px;
+  box-sizing: border-box;
+}
+
+.dg_bet_race_card {
+  background: var(--eventBg);
+  color: var(--eventTxt);
+  border-radius: var(--radius_s);
+  padding: var(--gap_m);
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap_m);
+}
+
+.dg_bet_race_card_title {
+  font-size: 14px;
+  color: var(--eventTxt);
+  margin: 0;
+}
+
+.dg_bet_race_card_sub_title {
+  font-size: 12px;
+  color: var(--eventTxt);
+}
+
+.dg_bet_race_card_date {
+  font-size: 12px;
+  color: var(--eventTxt2);
+}
+
+.dg_bet_race_card_sub_title-accent {
+  color: var(--eventAccent);
+}
+
+.dg_bet_race_card_footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dg_bet_race_list_heading {
+  color: var(--bodyTxt2);
+  display: flex;
+  align-items: center;
+  gap: var(--gap_s);
+}
+
+.dg_bet_race_list_heading > span {
+  flex-grow: 1;
+  min-width: 1px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.dg_bet_race_card_count_down_wrapper {
+  display: flex;
+  align-items: center;
+  gap: var(--gap_s);
+}
+
+.dg_bet_race_card_count_down_wrapper > div {
+  font-size: 13px;
+  padding: 4px;
+  border-radius: 3px;
+  background-color: var(--eventBgHover);
+  color: var(--eventTxt2);
+}
+
+.dg_bet_race_card_count_down_wrapper > span {
+  width: 4px;
+  flex-shrink: 0;
+  font-size: 13px;
+  padding: 4px;
+  color: var(--eventTxt2);
+}
+
+.dg_bet_race_card_list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap_m);
+}
+
+.dg_bet_race_card_lists_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap_l);
+}
+
+/*daily win banners*/
+.dg_bet_race_dayly_winner_banners_wrapper {
+  display: flex;
+  gap: var(--gap_m);
+  padding-top: var(--gap_l);
+  padding-bottom: var(--gap_l);
+  overflow-x: auto;
+}
+
+.dg_bet_race_dayly_winner_banner {
+  background: var(--eventBg);
+  color: var(--eventTxt);
+  border-radius: var(--radius_s);
+  padding: var(--gap_m);
+  display: flex;
+  justify-content: space-between;
+  gap: var(--gap_m);
+  border: 1px solid var(--eventBgHover);
+  max-width: 300px;
+  flex-shrink: 0;
+}
+
+.dg_bet_race_dayly_winner_banner > div:first-child {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap_s);
+}
+
+.dg_bet_race_dayly_winner_banner > div:last-child {
+  display: flex;
+  align-items: center;
+  gap: var(--gap_s);
+}
+
+.dg_bet_race_dayly_winner_banner_heading {
+  font-size: 13px;
+  color: var(--eventTxt);
+  font-weight: 500;
+}
+.dg_bet_race_dayly_winner_banner_date {
+  font-size: 13px;
+  color: var(--eventTxt2);
+}
+
+.dg_bet_race_dayly_winner_banner_separator {
+  font-size: 13px;
+  color: var(--eventTxt2);
+}
+
+.dg_bet_race_dayly_winner_banner_bet {
+  font-size: 13px;
+  color: var(--eventTxt);
+}
+
+.dg_bet_race_dayly_winner_banner_sub_row {
+  display: flex;
+  align-items: center;
+  gap: var(--gap_s);
+}
+
+.dg_bet_race_dayly_winner_banner_prize {
+  font-size: 18px;
+  color: var(--eventAccent);
+  font-weight: 500;
+}
+
+.dg_bet_race_dayly_winner_banner_currency {
+  font-size: 10px;
+  color: var(--eventTxt2);
+}
+
+.dg_bet_race_tournament_info_card {
+  background: var(--eventBg);
+  color: var(--eventTxt);
+  border-radius: var(--radius_s);
+  padding: var(--gap_m);
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap_m);
+  border: 1px solid var(--eventBgHover);
+  flex-shrink: 0;
+}
+
+.dg_bet_race_tournament_info_card_row_top {
+  display: flex;
+  align-items: center;
+  gap: var(--gap_m);
+}
+
+.dg_bet_race_tournament_info_card_row_top > div {
+  flex-grow: 1;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: var(--gap_s);
+}
+
+.dg_bet_race_tournament_info_card_row_top > div > span {
+  font-size: 13px;
+  color: var(--eventTxt2);
+}
+
+.dg_bet_race_tournament_info_card_row_top > div > strong {
+  font-size: 13px;
+  color: var(--eventTxt);
+}
+
+.dg_bet_race_tournament_info_card_row_top > div:last-child {
+  justify-content: flex-end;
+}
+
+.dg_bet_race_tournament_info_card_row_top > strong {
+  color: var(--eventTxt2);
+}
+
+.dg_bet_race_tournament_info_card_row_prize {
+  display: flex;
+  align-items: center;
+  gap: var(--gap_s);
+}
+
+.dg_bet_race_tournament_info_card_row_prize > i {
+  color: var(--eventAccent);
+}
+.dg_bet_race_tournament_info_card_row_prize > span {
+  font-size: 13px;
+  color: var(--eventTxt2);
+}
+.dg_bet_race_tournament_info_card_row_prize > strong {
+  font-size: 13px;
+  color: var(--eventTxt);
+}
+
+.dg_bet_race_key_value_list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap_m);
+}
+
+.dg_bet_race_key_value_row {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.dg_bet_race_key_value_row > div {
+  display: flex;
+  align-content: center;
+  gap: var(--gap_s);
+}
+
+.dg_bet_race_key_value_row span {
+  font-size: 13px;
+  color: var(--eventTxt2);
+}
+
+.dg_bet_race_key_value_row strong {
+  font-size: 13px;
+  color: var(--eventTxt);
+  font-weight: 500;
+}
+
+.dg_bet_race_decorated_heading {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: var(--gap_l);
+  margin-bottom: var(--gap_l);
+}
+
+.dg_bet_race_decorated_heading > div {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(to left, var(--bodyBg), var(--bodyTxt2), var(--bodyBg));
+  z-index: 1;
+}
+
+.dg_bet_race_decorated_heading > span {
+  position: relative;
+  z-index: 2;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 0 12px;
+  background-color: var(--bodyBg);
+}
+
+/*hero with image*/
+.dg_bet_race_hero_with_image {
+  background: var(--eventBg);
+  color: var(--eventTxt);
+  border-radius: var(--radius_s);
+  padding: 0 var(--gap_m);
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap_m);
+  flex-shrink: 0;
+  height: 60px;
+  position: relative;
+  justify-content: center;
+}
+
+.dg_bet_race_hero_with_image > div {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap_xs);
+}
+
+.dg_bet_race_hero_with_image > div > span {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--eventTxt);
+}
+
+.dg_bet_race_hero_with_image > div > strong {
+  font-size: 13px;
+  color: var(--eventTxt2);
+}
+
+.dg_bet_race_hero_with_image img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 60px;
+}
+
+.dg_bet_race_hero_with_image_list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap_m);
+}
+
+.dg_bet_race_leagues_list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap_l);
+}
+
+.dg_bet_race_league_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap_s);
+}
+
+.dg_bet_race_league_title {
+  color: var(--bodyTxt);
+  font-weight: 500;
+  font-size: 13px;
+  text-transform: capitalize;
+}
+
+.dg_bet_race_league_items_wrapper {
+  display: flex;
+  gap: var(--gap_m);
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.dg_bet_race_league_item {
+  background: var(--eventBg);
+  color: var(--eventTxt);
+  border-radius: var(--radius_s);
+  padding: var(--gap_l);
+  display: flex;
+  gap: var(--gap_m);
+  border: 1px solid var(--eventBgHover);
+  flex-shrink: 0;
+  align-items: center;
+  width: calc(50% - var(--gap_m) / 2);
+}
+
+.dg_bet_race_league_item > p {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 16px;
+  color: var(--eventTxt2);
+  flex-grow: 1;
+  min-width: 1px;
+}
+
+.dg_bet_race_league_item > i {
+  color: var(--eventTxt2);
+}
+
+/*Tabs Wrapper*/
+.dg_bet_race_tabs_wrapper {
+  display: flex;
+  align-items: center;
+  gap: var(--gap_m);
+}
+
+.dg_bet_race_tabs_wrapper > button {
+  appearance: none;
+  border: 0;
+  outline: 0;
+  height: 30px;
+  border-radius: var(--radius_xs);
+  padding: 0 var(--gap_l);
+  background-color: var(--bodyBg);
+  color: var(--bodyTxt2);
+  font-size: 13px;
+  transition: all 0.2s;
+}
+
+.dg_bet_race_tabs_wrapper > button.dg_bet_race-active {
+  background-color: var(--bodyBg2);
+  color: var(--bodyTxt2);
+}
+
+.dg_bet_race_tab_filter {
+  display: flex;
+  align-items: center;
+  height: 44px;
+  background: var(--tabActiveBg);
+  color: var(--tabActiveTxt);
+  position: relative;
+}
+
+.dg_bet_race_tab_filter > input {
+  display: none;
+}
+
+.dg_bet_race_tab_filter > input + div > span {
+  position: absolute;
+  width: 50%;
+  height: 40px;
+  top: 2px;
+  border-radius: 24px;
+  background: var(--tabActiveBg2);
+  transition: all 0.2s;
+  display: flex;
+}
+
+.dg_bet_race_tab_filter > input:checked + div > span {
+  transform: translateX(100%);
+}
+
+.dg_bet_race_tab_filter_imitator {
+  display: flex;
+  width: 100%;
+}
+
+.dg_bet_race_tab_filter_imitator > div {
+  width: 50%;
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  color: var(--tabActiveTxt2);
+  position: relative;
+  z-index: 2;
+}
